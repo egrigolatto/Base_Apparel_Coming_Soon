@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <div class="card__uno">
+       
+      <img src="images/logo.svg" alt="" class="card__logo">
+      
+      <h1 class="card__titulo"><span>We're</span> <br> coming <br> soon</h1>
+      
+      <p class="card__parrafo"> Hello fellow shoppers! We're currently building our new fashion store. 
+           Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+
+      <form class="card__form" action="">
+        <input id="correo" class="card__inputEmail" required type="email" placeholder="Email Address">
+        <button id="card__btn" class="card__btn"><img src="images/icon-arrow.svg" alt=""></button>
+        <img src="images/icon-error.svg" alt="" class="card__form_imgError mensaje_error">
+        <div class="card__form_mensaje mensaje_error"></div>
+      </form>
+
+    </div>
+    <div class="card__dos">
+       <img src="images/logo.svg" alt="" class="card__logo_mobile">
+       <img src="images/hero-desktop.jpg" alt="" class="card__fotoPerfil_desktop">
+       <img src="images/hero-mobile.jpg" alt="" class="card__fotoPerfil_mobile">
+    </div>
+  </div>
+
+  
+  <script src="app.js"></script>
+</body>
+</html>
